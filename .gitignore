@@ -5,6 +5,3 @@ xcuserdata
 */xcshareddata
 */project.xcworkspace
 DerivedData/
-.DS_Store
-*.xcframework
-*.xcframework.zip
