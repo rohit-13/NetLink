@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Rohit Kumar" => "https://github.com/rohit-13" }
   spec.platform     = :ios, "15.0"
-  spec.source       = { :git => "https://github.com/rohit-13/Networking.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/rohit-13/Networking/blob/main/Networking.xcframework.zip", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'Networking.xcframework'
 end
