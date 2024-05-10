@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD0223C72BEEB3360001C2E4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AD32A4862BEA803E0099281E /* Netlink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Netlink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD32A4892BEA803E0099281E /* Netlink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Netlink.h; sourceTree = "<group>"; };
 		AD9644A32BEBEA6300A16495 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				AD32A4892BEA803E0099281E /* Netlink.h */,
+				AD0223C72BEEB3360001C2E4 /* PrivacyInfo.xcprivacy */,
 				ADF682DF2BED5896003A7537 /* Netlink.podspec */,
 				AD9644A72BEBF17B00A16495 /* NetLink.swift */,
 				AD9644A22BEBEA3E00A16495 /* Helpers */,
