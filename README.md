@@ -1,6 +1,6 @@
 ## NetLink
 An iOS SDK to do HTTP network calls. </br>
-Netlink is a lightweight CocoaPod for making HTTP network calls in Swift. It provides simple methods to perform GET and POST requests, parsing the response into generic Swift models or structs.
+Netlink is a lightweight CocoaPod for making HTTP network calls in Swift. It provides simple methods to perform GET and POST requests, parsing the response into <b>generic Swift models or structs.</b>
 
 ## Installation
 You can easily integrate Netlink into your project using CocoaPods. Add the following line to your Podfile:
