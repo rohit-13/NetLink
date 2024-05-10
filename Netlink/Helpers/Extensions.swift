@@ -1,17 +1,12 @@
 //
 //  Extensions.swift
-//  Networking
+//  NetLink
 //
 //  Created by Rohit Kumar on 08/05/24.
 //
 
 import Foundation
 import Combine
-
-enum HTTPMethod: String {
-    case get = "GET"
-    case post = "POST"
-}
 
 public enum NetworkError: Error {
     case invalidURL

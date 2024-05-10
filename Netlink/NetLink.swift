@@ -1,6 +1,6 @@
 //
-//  NetworkService.swift
-//  Networking
+//  NetLink.swift
+//  NetLink
 //
 //  Created by Rohit Kumar on 08/05/24.
 //
@@ -8,9 +8,14 @@
 import Foundation
 import Combine
 
-public class NetworkService {
+public class NetLink {
     private init() {}
     private static var storage = Set<AnyCancellable>()
+    
+    public enum HTTPMethod: String {
+        case get = "GET"
+        case post = "POST"
+    }
     
     public static func get<T>(urlString: String, queryItems: [String: String]? = nil, headers: [String: String]? = nil) -> Future<T, Error> where T: Codable {
         guard let url = URL(string: urlString) else {
