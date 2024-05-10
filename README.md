@@ -44,12 +44,6 @@ Here's an example of how you can use Netlink with a Todo model:
 import Foundation
 import Combine
 
-struct Todo: Codable {
-    let id: Int
-    let title: String
-    let completed: Bool
-}
-
 class Apiservice {
     
     // Function to fetch data via GET request
@@ -66,8 +60,14 @@ class Apiservice {
 
 And here's how you can use these functions:
 ```swift
+struct Todo: Codable {
+    let id: Int
+    let title: String
+    let completed: Bool
+}
+
+
 class SomeClass {
-    
     private var storage = Set<AnyCancellable>()
     private let apiService = Apiservice()
     
