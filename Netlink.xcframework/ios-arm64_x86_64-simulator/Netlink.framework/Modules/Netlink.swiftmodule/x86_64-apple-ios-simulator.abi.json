@@ -1,0 +1,954 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Netlink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Netlink"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetLink",
+        "printedName": "NetLink",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "HTTPMethod",
+            "printedName": "HTTPMethod",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "get",
+                "printedName": "get",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Netlink.NetLink.HTTPMethod.Type) -> Netlink.NetLink.HTTPMethod",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "Netlink.NetLink.HTTPMethod",
+                        "usr": "s:7Netlink7NetLinkC10HTTPMethodO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Netlink.NetLink.HTTPMethod.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPMethod",
+                            "printedName": "Netlink.NetLink.HTTPMethod",
+                            "usr": "s:7Netlink7NetLinkC10HTTPMethodO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Netlink7NetLinkC10HTTPMethodO3getyA2EmF",
+                "mangledName": "$s7Netlink7NetLinkC10HTTPMethodO3getyA2EmF",
+                "moduleName": "Netlink"
+              },
+              {
+                "kind": "Var",
+                "name": "post",
+                "printedName": "post",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Netlink.NetLink.HTTPMethod.Type) -> Netlink.NetLink.HTTPMethod",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "Netlink.NetLink.HTTPMethod",
+                        "usr": "s:7Netlink7NetLinkC10HTTPMethodO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Netlink.NetLink.HTTPMethod.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPMethod",
+                            "printedName": "Netlink.NetLink.HTTPMethod",
+                            "usr": "s:7Netlink7NetLinkC10HTTPMethodO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Netlink7NetLinkC10HTTPMethodO4postyA2EmF",
+                "mangledName": "$s7Netlink7NetLinkC10HTTPMethodO4postyA2EmF",
+                "moduleName": "Netlink"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Netlink.NetLink.HTTPMethod?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "Netlink.NetLink.HTTPMethod",
+                        "usr": "s:7Netlink7NetLinkC10HTTPMethodO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7Netlink7NetLinkC10HTTPMethodO8rawValueAESgSS_tcfc",
+                "mangledName": "$s7Netlink7NetLinkC10HTTPMethodO8rawValueAESgSS_tcfc",
+                "moduleName": "Netlink",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7Netlink7NetLinkC10HTTPMethodO8rawValueSSvp",
+                "mangledName": "$s7Netlink7NetLinkC10HTTPMethodO8rawValueSSvp",
+                "moduleName": "Netlink",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7Netlink7NetLinkC10HTTPMethodO8rawValueSSvg",
+                    "mangledName": "$s7Netlink7NetLinkC10HTTPMethodO8rawValueSSvg",
+                    "moduleName": "Netlink",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7Netlink7NetLinkC10HTTPMethodO",
+            "mangledName": "$s7Netlink7NetLinkC10HTTPMethodO",
+            "moduleName": "Netlink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(urlString:queryItems:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Future",
+                "printedName": "Combine.Future<τ_0_0, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine6FutureC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Netlink7NetLinkC3get9urlString10queryItems7headers7Combine6FutureCyxs5Error_pGSS_SDyS2SGSgANtSeRzSERzlFZ",
+            "mangledName": "$s7Netlink7NetLinkC3get9urlString10queryItems7headers7Combine6FutureCyxs5Error_pGSS_SDyS2SGSgANtSeRzSERzlFZ",
+            "moduleName": "Netlink",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(urlString:queryItems:headers:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Future",
+                "printedName": "Combine.Future<τ_0_0, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine6FutureC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Netlink7NetLinkC4post9urlString10queryItems7headers7payload7Combine6FutureCyxs5Error_pGSS_SDyS2SGSgAOSDySSypGtSeRzSERzlFZ",
+            "mangledName": "$s7Netlink7NetLinkC4post9urlString10queryItems7headers7payload7Combine6FutureCyxs5Error_pGSS_SDyS2SGSgAOSDySSypGtSeRzSERzlFZ",
+            "moduleName": "Netlink",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Netlink7NetLinkC",
+        "mangledName": "$s7Netlink7NetLinkC",
+        "moduleName": "Netlink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Netlink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Netlink"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Netlink.NetworkError.Type) -> Netlink.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "Netlink.NetworkError",
+                    "usr": "s:7Netlink12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Netlink.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "Netlink.NetworkError",
+                        "usr": "s:7Netlink12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Netlink12NetworkErrorO10invalidURLyA2CmF",
+            "mangledName": "$s7Netlink12NetworkErrorO10invalidURLyA2CmF",
+            "moduleName": "Netlink"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidRequest",
+            "printedName": "invalidRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Netlink.NetworkError.Type) -> Netlink.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "Netlink.NetworkError",
+                    "usr": "s:7Netlink12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Netlink.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "Netlink.NetworkError",
+                        "usr": "s:7Netlink12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Netlink12NetworkErrorO14invalidRequestyA2CmF",
+            "mangledName": "$s7Netlink12NetworkErrorO14invalidRequestyA2CmF",
+            "moduleName": "Netlink"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidSession",
+            "printedName": "invalidSession",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Netlink.NetworkError.Type) -> Netlink.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "Netlink.NetworkError",
+                    "usr": "s:7Netlink12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Netlink.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "Netlink.NetworkError",
+                        "usr": "s:7Netlink12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Netlink12NetworkErrorO14invalidSessionyA2CmF",
+            "mangledName": "$s7Netlink12NetworkErrorO14invalidSessionyA2CmF",
+            "moduleName": "Netlink"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Netlink.NetworkError.Type) -> Netlink.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "Netlink.NetworkError",
+                    "usr": "s:7Netlink12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Netlink.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "Netlink.NetworkError",
+                        "usr": "s:7Netlink12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Netlink12NetworkErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s7Netlink12NetworkErrorO15invalidResponseyA2CmF",
+            "moduleName": "Netlink"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "Netlink.NetworkError",
+                "usr": "s:7Netlink12NetworkErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "Netlink.NetworkError",
+                "usr": "s:7Netlink12NetworkErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Netlink12NetworkErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7Netlink12NetworkErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "Netlink",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Netlink12NetworkErrorO9hashValueSivp",
+            "mangledName": "$s7Netlink12NetworkErrorO9hashValueSivp",
+            "moduleName": "Netlink",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Netlink12NetworkErrorO9hashValueSivg",
+                "mangledName": "$s7Netlink12NetworkErrorO9hashValueSivg",
+                "moduleName": "Netlink",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Netlink12NetworkErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7Netlink12NetworkErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "Netlink",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7Netlink12NetworkErrorO",
+        "mangledName": "$s7Netlink12NetworkErrorO",
+        "moduleName": "Netlink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EmptyModel",
+        "printedName": "EmptyModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyModel",
+                "printedName": "Netlink.EmptyModel",
+                "usr": "s:7Netlink10EmptyModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Netlink10EmptyModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7Netlink10EmptyModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Netlink",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Netlink10EmptyModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7Netlink10EmptyModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Netlink",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Netlink10EmptyModelV",
+        "mangledName": "$s7Netlink10EmptyModelV",
+        "moduleName": "Netlink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Publisher",
+        "printedName": "Publisher",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "clubIntoResult",
+            "printedName": "clubIntoResult()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Swift.Result<τ_0_0.Output, τ_0_0.Failure>, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0.Output, τ_0_0.Failure>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.Output"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.Failure"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Combine9PublisherP7NetlinkE14clubIntoResultAA03AnyB0Vys0F0Oy6OutputQz7FailureQzGs5NeverOGyF",
+            "mangledName": "$s7Combine9PublisherP7NetlinkE14clubIntoResultAA03AnyB0Vys0F0Oy6OutputQz7FailureQzGs5NeverOGyF",
+            "moduleName": "Netlink",
+            "genericSig": "<τ_0_0 where τ_0_0 : Combine.Publisher>",
+            "sugared_genericSig": "<Self where Self : Combine.Publisher>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Combine9PublisherP",
+        "mangledName": "$s7Combine9PublisherP",
+        "moduleName": "Combine",
+        "genericSig": "<τ_0_0.Failure : Swift.Error>",
+        "sugared_genericSig": "<Self.Failure : Swift.Error>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rohit-kumar\/Documents\/Self-Projects\/Netlink\/Netlink\/NetLink.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/rohit-kumar\/Documents\/Self-Projects\/Netlink\/Netlink\/NetLink.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/rohit-kumar\/Documents\/Self-Projects\/Netlink\/Netlink\/NetLink.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/rohit-kumar\/Documents\/Self-Projects\/Netlink\/Netlink\/NetLink.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 6,
+      "value": "\"POST\""
+    }
+  ]
+}

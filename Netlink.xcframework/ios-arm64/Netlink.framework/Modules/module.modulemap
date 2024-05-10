@@ -1,0 +1,6 @@
+framework module Netlink {
+  umbrella header "Netlink.h"
+  export *
+
+  module * { export * }
+}
