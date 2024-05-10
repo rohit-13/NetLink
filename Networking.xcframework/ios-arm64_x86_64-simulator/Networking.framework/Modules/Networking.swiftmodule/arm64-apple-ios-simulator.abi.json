@@ -271,16 +271,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -572,16 +562,6 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {

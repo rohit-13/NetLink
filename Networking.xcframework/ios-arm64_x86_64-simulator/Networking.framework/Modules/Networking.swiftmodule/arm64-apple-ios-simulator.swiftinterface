@@ -24,12 +24,12 @@ public enum NetworkError : Swift.Error {
     get
   }
 }
-extension Combine.Publisher {
-  public func clubIntoResult() -> Combine.AnyPublisher<Swift.Result<Self.Output, Self.Failure>, Swift.Never>
-}
 public struct EmptyModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension Combine.Publisher {
+  public func clubIntoResult() -> Combine.AnyPublisher<Swift.Result<Self.Output, Self.Failure>, Swift.Never>
 }
 extension Networking.NetworkError : Swift.Equatable {}
 extension Networking.NetworkError : Swift.Hashable {}
