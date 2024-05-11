@@ -37,6 +37,8 @@ NetLink.post(urlString: "https://example.com/api/post", queryItems: nil, headers
     .store(in: &cancellables)
 ```
 
+##### Note: `queryItems` and `headers` are optional parameters in the `get` and `post` function
+
 ## Example: Todo Model
 Here's an example of how you can use Netlink with a Todo model:
 
